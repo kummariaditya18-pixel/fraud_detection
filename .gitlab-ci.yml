@@ -1,0 +1,6 @@
+image: python:3.14
+test:
+  script:
+    - pip install --only-binary=:all: -r requirements.txt
+    - python train_model.py
+    - pytest -q
