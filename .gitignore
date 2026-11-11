@@ -4,3 +4,4 @@ __pycache__/
 transactions.db
 .vscode/
 .env
+.pytest_cache/
